@@ -1,7 +1,8 @@
 public class Nut {
-    private final double weight = 12.5;
+    private final double weight;
 
     public Nut() {
+        weight = 10 + 8 * Math.random();
     }
 
     public double getWeight() {

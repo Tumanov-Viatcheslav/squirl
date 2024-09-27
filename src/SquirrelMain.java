@@ -4,6 +4,6 @@ public class SquirrelMain {
         Tree tree = new Tree();
         Nut[] nuts = tree.growNuts(15);
         double sum = squirrel.pickUpNuts(nuts);
-        System.out.println(sum);
+        System.out.printf("%.2f", sum);
     }
 }
